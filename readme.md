@@ -1,4 +1,4 @@
-# node-gtts
+# node-gtts (Malayalam Lang Fix)
 Google Text-to-Speech for NodeJS (Unofficial API)
 
 ## How to install
@@ -12,9 +12,9 @@ npm install node-gtts
 ```javascript
 var gtts = require('node-gtts')('en');
 var path = require('path');
-var filepath = path.join(__dirname, 'i-love-you.wav');
+var filepath = path.join(__dirname, 'cyberjeevi.wav');
 
-gtts.save(filepath, 'I love you', function() {
+gtts.save(filepath, 'Cyber Arena', function() {
   console.log('save done');
 })
 ```
