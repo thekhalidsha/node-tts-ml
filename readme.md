@@ -1,6 +1,6 @@
 # node-gtts (Malayalam Lang Fix)
-Google Text-to-Speech for NodeJS (Unofficial API)\n
-Added Malayalam Language Sequence - CYBERJEEVI (Khalid Sha)
+Google Text-to-Speech for NodeJS (Unofficial API)
+## Added Malayalam Language Sequence - CYBERJEEVI (Khalid Sha)
 
 ## How to install
 ```bash
