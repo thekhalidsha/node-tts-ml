@@ -41,6 +41,7 @@ const LANGUAGES = {
   'la': 'Latin',
   'lv': 'Latvian',
   'mk': 'Macedonian',
+  'ml': 'Malayalam',
   'no': 'Norwegian',
   'pl': 'Polish',
   'pt': 'Portuguese',
@@ -67,7 +68,7 @@ function Text2Speech(_lang, _debug) {
   lang = lang.toLowerCase();
 
   if (!LANGUAGES[lang])
-    throw new Error('Language not supported: ' + lang);
+    throw new Error('Lang Code Error or Not Supported: ' + lang);
 
   var getArgs = getArgsFactory(lang);
 
