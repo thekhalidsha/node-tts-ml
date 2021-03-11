@@ -1,7 +1,8 @@
 # node-gtts (Malayalam Lang Fix)
 Google Text-to-Speech for NodeJS (Unofficial API)
 ## Added Malayalam Language Sequence
-Recoded by - CYBERJEEVI (Khalid Sha)
+Recoded by - CYBERJEEVI (Khalid Sha).
+
 Thanks to - CyberNoobArena
 
 ## How to install
